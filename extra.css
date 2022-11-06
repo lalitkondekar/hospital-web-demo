@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: barlow;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container h1{
+    margin: 100px auto;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 82px;
+    color: #545454;
+}
+.back-btn{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 214px;
+    height: 57px;
+    background: linear-gradient(102.75deg, #D0D0D0 -3.47%, #52E395 -3.46%, rgba(255, 255, 255, 0) 163.35%);
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+.back-btn h2{
+    margin: auto;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+}

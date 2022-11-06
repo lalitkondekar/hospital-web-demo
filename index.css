@@ -1,0 +1,452 @@
+/* nav  */
+.nav-home{
+    font-weight: 600;
+}
+
+
+
+/* Intro */
+
+.intro{
+    width: 1100px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    display: flex;
+}
+.intro-written h4{
+    margin-top: 20px;
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25.px;
+    line-height: 31px;
+    color: #37B36F;
+}
+.intro-written h1{
+    margin-top: 10px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 82px;
+    color: #545454;
+}
+.intro-written p{
+    margin-top: 30px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #545454;
+    width: 70%;
+}
+.intro-contact-button{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 214px;
+    height: 57px;
+    background: linear-gradient(102.75deg, #D0D0D0 -3.47%, #52E395 -3.46%, rgba(255, 255, 255, 0) 163.35%);
+    border-radius: 20px;
+    margin-top: 90px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.intro-contact-button:hover{
+    transform: scale(1.1);
+}
+.intro-contact-button h3{
+    margin: auto;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.intro-logo{
+    width: 516px;
+    height: 520px;
+}
+
+.intro-box{
+    width: 1100px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.intro-box-0{
+    width: 323px;
+    height: 120px;
+    margin: 15px;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 30px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 35.8359px;
+    display: flex;
+    text-align: left;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.5s ease;
+}
+.intro-box-0:hover{
+    transform: scale(1.1);
+}
+.intro-box-logo{
+    width: 35px;
+    height: 40px;
+}
+.intro-box-written{
+    margin-left: 20px;
+}
+.intro-box-written h3{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.intro-box-written p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #545454;
+}
+.intro-box-2{
+    background: linear-gradient(106.12deg, #54E295 1.89%, rgba(255, 255, 255, 0) 155.48%);
+}
+
+
+
+
+
+/* who we are   or who section */
+
+.who{
+    width: 1100px;
+    margin: 100px auto 50px auto;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+.who-img{
+    width: 545px;
+    height: 389px;
+}
+.who-written{
+    margin-left: 50px;
+}
+.who-written h4{
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    color: #37B36F;
+}
+.who-written h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 60px;
+    color: #545454;
+}
+.who-written p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #545454;
+}
+.who-tick-list{
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.tick-list{
+    margin-left: 50px;
+}
+.tick-list ul li{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.6941px;
+    line-height: 20px;
+    color: #5C5C5C;
+    list-style-image: url("images/tick.svg");
+    list-style-position: outside;
+}
+
+
+
+
+/* medicine section */
+
+.med-section{
+    background-image: url("images/medicine bg photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+.med-section-written{
+    text-align: left;
+    margin: auto 0px auto auto;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) -1.62%, rgba(0, 0, 0, 0.81) 139.13%);
+}
+.med-section-written h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 100px 5% 50px 20%;
+}
+.med-section-written p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 5% 50px 20%;
+}
+.med-section-contact-btn{
+    width: 210px;
+    height: 60px;
+    background: #48E28F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 5% 50px 20%;
+    cursor: pointer;
+
+    transition: transform 0.5s ease;
+}
+.med-section-contact-btn:hover{
+    transform: scale(1.1);
+}
+.med-section-contact-btn h3{
+    margin: auto;
+}
+
+
+
+/* what we are or what section */
+.what{
+    width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+}
+.what h4{
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #37B36F;
+}
+.what h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    text-align: center;
+    color: #545454;
+    width: 65%;
+    margin: 0px auto 50px auto;
+}
+
+.what-box-section{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.what-box{
+    width: 320px;
+    height: 400px;
+    margin: 20px auto;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+
+    transition: transform 0.5s ease;
+}
+.what-box:hover{
+    transform: scale(1.1);
+}
+.what-box-logo{
+    margin: 30px auto 30px auto;
+}
+.what-box h3{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #5F5F5F;
+    margin-bottom: 10px;
+}
+.what-box p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #5F5F5F;
+    margin-bottom: 50px;
+}
+.what-box-more-btn{
+    width: 110px;
+    height: 25px;
+    margin: 10px auto;
+    background: linear-gradient(101.66deg, #50E293 26.69%, rgba(217, 217, 217, 0) 183.19%);
+    border-radius: 21.5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.what-box-more-btn h4{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #747474;
+    margin: auto;
+}
+
+
+
+
+/* Contact section */
+.contact-section{
+    width: 100%;
+    min-width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    background: linear-gradient(128.14deg, rgba(40, 122, 78, 0.95) 5.17%, rgba(90, 98, 3, 0) 131.85%);
+    padding: 40px;
+    margin: auto;
+}
+
+.contact-us{
+    text-align: left;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    margin: auto;
+}
+
+.contact-us h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.contact-us h3{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.contact-us p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.online-booking{
+    text-align: left;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 50px 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+}
+.online-booking h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 70px; 
+    color: #505050;
+}
+.online-booking input{
+    outline: none;
+    display: block;
+    width: 98%;
+    margin-top: 20px;
+    height: 40px;
+    border: 1px solid #5e5e5e;
+    border-style: none none solid none;
+    background-color: none;
+}
+.online-booking textarea{
+    outline: none;
+    display: block;
+    width: 98%;
+    margin-top: 20px;
+    height: 40px;
+    border: 1px solid #5e5e5e;
+    border-style: none none solid none;
+    resize: vertical;
+}
+.online-booking input[type=submit]{
+    outline: none;
+    display: block;
+    width: 95%;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background: linear-gradient(99.6deg, #53E395 20.7%, rgba(217, 217, 217, 0) 184.96%);
+    cursor: pointer;
+    transition: background-color 0.5s ease,font-size 0.5s ease;
+}
+.online-booking input[type=submit]:hover{
+    background-color: green;
+    font-size: 15px;
+}
+
+
+
+
